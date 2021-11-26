@@ -1,0 +1,48 @@
+.charts{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    background-image: linear-gradient(to right top, #ececec, #eceeef, #eaf0f0, #ebf1ee, #f0f2eb);
+    overflow-y: overlay;
+}
+
+.charts::-webkit-scrollbar {
+    display: none;
+  }
+
+.charts > h1 {
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.chart__body {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.chart__type {
+    display: flex;
+    flex:0.5
+}
+
+.charts__form {
+    display: flex;
+    flex-direction: column;
+    padding:10px;
+}
+
+.charts__form select {
+    padding:10px;
+    border: solid 1px #0B0652;
+    margin-bottom: 5px;
+    width:500px;
+    background: transparent;
+    color: black;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border-radius: 5px;
+
+}
